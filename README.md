@@ -1,2 +1,2 @@
 # backend
-Backend do Projeto Technical Share 
+Back-end do Projeto Technical Share 
