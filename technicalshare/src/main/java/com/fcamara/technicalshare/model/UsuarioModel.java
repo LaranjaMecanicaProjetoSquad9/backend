@@ -9,6 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
@@ -38,7 +39,8 @@ public class UsuarioModel
 	private String telefone;
 	
 	@NotNull(message = "Campo email obrigatório")
-	@Size(min = 10, max = 50)
+	@Size(min = 1, max = 50)
+	@Email
 	private String email;
 	
 	@NotNull(message = "Campo senha obrigatório")
