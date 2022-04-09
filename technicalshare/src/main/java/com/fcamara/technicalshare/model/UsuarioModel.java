@@ -29,8 +29,16 @@ public class UsuarioModel
 	@Size(min = 1, max = 30)
 	private String funcao;
 	
+	@NotNull(message = "Campo Função obrigatório")
+	@Size(min = 1, max = 500)
+	private String habilidade;
+	
 	@NotNull(message = "Campo email obrigatório")
-	@Size(min = 10, max = 50) 
+	@Size(min = 10, max = 11)
+	private String telefone;
+	
+	@NotNull(message = "Campo email obrigatório")
+	@Size(min = 10, max = 50)
 	private String email;
 	
 	@NotNull(message = "Campo senha obrigatório")
@@ -46,7 +54,7 @@ public class UsuarioModel
 	
 	@OneToMany(mappedBy ="usuario", cascade = CascadeType.REMOVE)
 	@JsonIgnoreProperties("usuario")
-	private List<PostagemModel> postagens; 
+	private List<PostagemModel> postagens;
 
 	public Long getId() {
 		return id;
@@ -70,6 +78,22 @@ public class UsuarioModel
 
 	public void setFuncao(String funcao) {
 		this.funcao = funcao;
+	}
+
+	public String getHabilidade() {
+		return habilidade;
+	}
+
+	public void setHabilidade(String habilidade) {
+		this.habilidade = habilidade;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
 	}
 
 	public String getEmail() {
@@ -118,5 +142,5 @@ public class UsuarioModel
 
 	public void setPostagens(List<PostagemModel> postagens) {
 		this.postagens = postagens;
-	}
+	} 
 }
