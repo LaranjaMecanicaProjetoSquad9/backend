@@ -28,13 +28,15 @@ public class SwaggerConfig {
 	}
 
 	public static ApiInfo metadata() {
-		return new ApiInfoBuilder().title("API - NetFilmes").description("Projeto de teste pratico para entrevista")
-				.version("1.0.0").license("Apache License Version 2.0").licenseUrl("https://github.com/alessandrodjr")
+		return new ApiInfoBuilder().title("API - Technical Share").description("Aplicação para uso interno dos colaboradores FCamara, "
+				+ "com o propósito de conectar mentores e mentoradas, "
+				+ "difundindo conhecimentos e habilidades fundamentais ao profissionais de tecnologia")
+				.version("1.0.0").license("Apache License Version 2.0").licenseUrl("https://github.com/Technical-Share-Squad-9-FCamara/backend")
 				.contact(contact()).build();
 	}
 
 	private static Contact contact() {
-		return new Contact("Alessandro Dia Jr", "https://github.com/alessandrodjr", "alessandro.djr@outlook.com");
+		return new Contact("Victor Hugo Costa de Souza", "https://github.com/Victor-Hugo-Costa", "victor.hcsouza@outlook.com");
 	}
 
 	private static List<Response> responseMessage() {
