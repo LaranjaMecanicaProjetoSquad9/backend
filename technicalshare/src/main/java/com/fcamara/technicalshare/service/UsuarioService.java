@@ -22,7 +22,7 @@ public class UsuarioService
 	private UsuarioRepository usuarioRepository;
 
 	public UsuarioModel cadastrarUsuario(UsuarioModel usuario) {
-		if (usuarioRepository.findByEmailContainingIgnoreCase(usuario.getEmail()).isPresent())
+		if (usuarioRepository.findByEmail(usuario.getEmail()).isPresent())
 			throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Usuário ja existe!", null);
 		
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
@@ -35,7 +35,7 @@ public class UsuarioService
 	public Optional<UsuarioModel> atualizarUsuario(UsuarioModel usuario) {
 		if (usuarioRepository.findById(usuario.getId()).isPresent()) {
 
-			Optional<UsuarioModel> buscaUsuario = usuarioRepository.findByEmailContainingIgnoreCase(usuario.getEmail());
+			Optional<UsuarioModel> buscaUsuario = usuarioRepository.findByEmail(usuario.getEmail());
 
 			if (buscaUsuario.isPresent()) {
 
@@ -66,7 +66,7 @@ public class UsuarioService
 	public Optional<UsuarioLogin> logar(Optional<UsuarioLogin> userLogin) {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder();
 
-		Optional<UsuarioModel> usuario = usuarioRepository.findByEmailContainingIgnoreCase(userLogin.get().getEmail());
+		Optional<UsuarioModel> usuario = usuarioRepository.findByEmail(userLogin.get().getEmail());
 		if (usuario.isPresent()) {
 			if (encoder.matches(userLogin.get().getSenha(), usuario.get().getSenha())) {
 

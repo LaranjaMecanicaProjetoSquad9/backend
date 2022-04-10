@@ -9,7 +9,7 @@ import com.fcamara.technicalshare.model.UsuarioModel;
 @Repository
 public interface UsuarioRepository extends JpaRepository<UsuarioModel, Long >
 {
-	public Optional<UsuarioModel> findByEmailContainingIgnoreCase(String Email); //Pesquisa por e-mail
+	public Optional<UsuarioModel> findByEmail(String Email); //Pesquisa por e-mail
 
 	public List<UsuarioModel> findAllByNomeContainingIgnoreCase(String nome); //Pesquisa a lista por nome
 }
