@@ -1,7 +1,6 @@
-## Documentação do Projeto O-Share
-
 <h1 align = "center">{BACK-END}</h1>
 
+# <h1 align = "center"> Projeto O-Share </h1>
 ## :page_facing_up: Sobre o projeto
 O-Share, uma plataforma que é a ponte entre profissionais de todos os perfis, com desafios e propostas diferentes, que desejam interagir para trocar experiências e conhecimento.
 De forma simples, os colaboradores conseguem procurar por perfis de acordo com as especificações que pretendem, agendar uma mentoria e também se disponibilizarem para serem mentores.
@@ -65,4 +64,4 @@ Relacionamento entre tabelas:
 ## Elaborado por: [_**Victor Hugo Costa de Souza**_](https://www.linkedin.com/in/victorhcsouza/)
 
 
-<h1 align = "center">Agradecemos ao grupo FCamara pela rica e valiosa oportunidae :orange_heart:</h1>
+<h1 align = "center">Agradecemos ao grupo FCamara pela rica e valiosa oportunidade :orange_heart:</h1>
