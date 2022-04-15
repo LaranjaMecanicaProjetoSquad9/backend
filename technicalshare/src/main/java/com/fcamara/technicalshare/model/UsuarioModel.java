@@ -52,6 +52,9 @@ public class UsuarioModel
 
 	private LocalDate dataCriacaoConta = LocalDate.now();
 	
+	@Size(max = 1000)
+	private String sobremim;
+	
 	private String foto;
 	
 	@OneToMany(mappedBy ="usuario", cascade = CascadeType.REMOVE)
@@ -136,6 +139,14 @@ public class UsuarioModel
 
 	public void setFoto(String foto) {
 		this.foto = foto;
+	}
+	
+	public String getSobremim() {
+		return sobremim;
+	}
+
+	public void setSobremim(String sobremim) {
+		this.sobremim = sobremim;
 	}
 
 	public List<PostagemModel> getPostagens() {
