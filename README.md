@@ -1,4 +1,3 @@
-
 <h1 align = "center"> PROJETO O-SHARE {BACK-END} | 🍊 SQUAD 9</h1>
 
 ## :page_facing_up: Sobre o projeto
@@ -38,9 +37,3 @@ Relacionamento entre tabelas:
 
 ## Service
 -	Validação de usuários cadastrados e não cadastrados para impedir a duplicidade
-
-
-
-
-
-
