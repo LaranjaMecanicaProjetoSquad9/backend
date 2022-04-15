@@ -1,5 +1,5 @@
 
-<h1 align = "center"> BACK-END PROJETO O-SHARE | 🍊 SQUAD 9</h1>
+<h1 align = "center"> PROJETO O-SHARE {BACK-END} | 🍊 SQUAD 9</h1>
 
 ## :page_facing_up: Sobre o projeto
 O-Share, uma plataforma que é a ponte entre profissionais de todos os perfis, com desafios e propostas diferentes, que desejam interagir para trocar experiências e conhecimento.
