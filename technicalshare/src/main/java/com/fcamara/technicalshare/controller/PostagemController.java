@@ -19,7 +19,7 @@ import com.fcamara.technicalshare.repository.PostagemRepository;
 
 @RestController
 @RequestMapping("/postagens") 
-@CrossOrigin(origins = "", allowedHeaders = "") 
+@CrossOrigin(origins = "*", allowedHeaders = "*") 
 public class PostagemController 
 {
 	@Autowired 
