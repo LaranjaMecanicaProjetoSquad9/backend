@@ -6,7 +6,7 @@ O-Share, uma plataforma que é a ponte entre profissionais de todos os perfis, c
 De forma simples, os colaboradores conseguem procurar por perfis de acordo com as especificações que pretendem, agendar uma mentoria e também se disponibilizarem para serem mentores.
 
 ## :mortar_board: Desafio Hackathon
-Projeto desenvolvido para o programa de formação FCamara {Season 3}[https://digital.fcamara.com.br/programadeformacao]
+Projeto desenvolvido para o programa de formação FCamara [{Season 3}](https://digital.fcamara.com.br/programadeformacao) 
 - Período: 01 a 15 de abril/2022
 
 ## :hammer_and_wrench: Tecnologias utilizadas
