@@ -9,7 +9,7 @@ De forma simples, os colaboradores conseguem procurar por perfis de acordo com a
 Projeto desenvolvido para o programa de formação FCamara {Season 3}[https://digital.fcamara.com.br/programadeformacao]
 - Período: 01 a 15 de abril/2022
 
-## :hammer_and_wrench: Tecnologias utilizadas no Back-end
+## :hammer_and_wrench: Tecnologias utilizadas
 ### Back-end
 - Spring Tools 4 (IDE)
 - PostgreSQL (Banco de Dados
