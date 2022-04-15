@@ -12,7 +12,7 @@ Projeto desenvolvido para o programa de formação FCamara {Season 3}[https://di
 ## :hammer_and_wrench: Tecnologias utilizadas
 ### Back-end
 - Spring Tools 4 (IDE)
-- PostgreSQL (Banco de Dados
+- PostgreSQL (Banco de Dados)
 - Swagger (Documentação API)
-- Heroku (Hospedagem
+- Heroku (Hospedagem)
 
